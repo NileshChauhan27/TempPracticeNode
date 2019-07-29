@@ -7,7 +7,6 @@ const square = (x) => {
     debugger;
     return x * x;
 }
-/* Sample Comment */
 
 app.get('/:number', (req, res) => {
     const squared = square(req.params.number);
